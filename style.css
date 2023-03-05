@@ -1,0 +1,18 @@
+body {
+    background-color: #F7F7F7;
+}
+.container {
+    height: 98vh; /* Set container height to viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .image-wrapper {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+  }
+  .image-wrapper img {
+    border-radius: 50%; /* Apply 50% rounded corners to the image */
+  }
